@@ -1,0 +1,138 @@
+.title {
+    background-color: #f1f1f1;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 5px;
+    border: solid red 5px;
+    height: 60px;
+    width: 20%;
+    min-width: 200px;
+    transform: translateY(10px);
+    margin: auto;
+}
+
+.body {
+    background-color: #f1f1f1;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 3%;
+    border: solid red 5px;
+    height: 400px;
+    width: 80%;
+    min-width: 300px;
+    max-width: 600px;
+    transform: translateY(20px);
+    margin: auto;
+
+}
+
+.main {
+    background-color: #f1f1f1;
+    color: #000;
+    text-align: center;
+    /* padding: 20px;
+    font-size: 20px;
+    border-radius: 3%; */
+    /* border:dashed red 1px; */
+    /* height: 400px;
+    
+    min-width: 300px;
+    max-width: 600px;
+    transform: translateY(20px);*/
+    margin: auto;
+    width: 80%;
+    height: 70%;
+}
+
+.p {
+    margin-top: auto;
+    text-align: left;
+}
+
+#shuru {
+    outline-style: none;
+    border-radius: 3px;
+    border: solid 2px blue;
+    height: 30px;
+    width: 80px;
+    font-size: 20px;
+    min-width: 80px;
+    max-width: 300px;
+    transition: all 250ms ease-in-out;
+}
+
+#shuru:hover {
+    border: solid 4px blue;
+    width: 150px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#shuru:focus {
+    border: solid 3px blue;
+    width: 65%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#buttoncha {
+    color: #000;
+    font-size: 20px;
+    border: solid 2px gray;
+    border-radius: 5px;
+    background-color: #bfefff;
+    transition: all 250ms ease-in-out;
+}
+
+#buttoncha:hover {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: solid 2px red;
+    font-size: 22px;
+}
+
+#buttoncha:active {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: solid 2px red;
+    background-color: aqua;
+    /* font-size: 24px; */
+}
+
+#tishiback {
+    position: absolute;
+    z-index: 998;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    background-color: gray;
+    display:none;
+
+}
+
+#tishi {
+    /* position: fixed;
+
+    ;
+    /* margin: auto; */
+    /*
+    transform: translateX(calc(50vw - 150px));
+    transform: translateY(calc(50vh - 200px)); */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 999;
+    height: 400px;
+    width: 300px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    border: dotted blue 2px;
+    transition: all 250ms ;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 255, 0.2);
+    /* text-align: center; */
+    padding: 20px;
+    display: none;
+}

@@ -1,0 +1,27 @@
+div {
+    background-color: #f1f1f1;
+    text-align: center;
+    margin: auto;
+    user-select: none;
+    padding: 20px;
+    border-radius: 5px;
+    border:solid 3px;
+    height: 80vh;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+b {
+    color: red;
+    font-size: 40px;
+
+}
+p{
+    font-size: 20px;
+    color: blue;
+}
+button{
+    clear: both;
+}

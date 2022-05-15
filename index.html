@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/svg+xml" href="search.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>查询</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body style="margin: 0;user-select: none;background-color: #7e7e7e;">
+    <div id="tishiback">
+
+    </div>
+    <div id="tishi">
+        <div style="font-size: 30px;float: left;">提示</div>
+        <div style="float: right;" onclick="closetishi();"><img src="bg-close.svg" width="40px" height="40px"></div>
+        <div style="height: 3px;transform: translateY(50px); background-color: blue;">&nbsp;</div>
+        <br /><br /><br />
+        <div id="wenben" style="margin: auto;text-align: left;font-size: 22px;word-break: break-all;"></div>
+        <!-- <div><p>1233333333333</p></div>
+        <div id="closediv"></div> -->
+    </div>
+    <div class="title">查询</div>
+    <div class="body">
+        <div class="main">
+            <p class="p">请输入</p>
+            <br />
+            <input type="text" maxlength="5" id="shuru" placeholder="在这里输入...">
+            <input type="button" onclick="chaxun();" value="查询" id="buttoncha">
+        </div>
+    </div>
+
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="script2.js"></script>
+<script src="script.js"></script>
+
+</html>
